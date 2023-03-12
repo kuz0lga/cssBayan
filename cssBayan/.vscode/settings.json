@@ -1,0 +1,22 @@
+{
+    "liveServer.settings.ignoreFiles": [
+
+
+
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ],
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": false,
+    "liveServer.settings.donotVerifyTags": false,
+    "liveServer.settings.fullReload": false,
+    "liveServer.settings.mount": [
+
+    ],
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.port": 0,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+}

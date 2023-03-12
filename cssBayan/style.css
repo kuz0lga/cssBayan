@@ -1,9 +1,10 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
+    font-weight: bold;
     line-height: 1.5;
-    display: block;
-    background-color: black;
+    background-color: #cccebf;
+    min-height: 100vh;
 }
 
 *,
@@ -16,9 +17,15 @@ p {
     margin: 0 0 5px;
 }
 
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .gif-item {
+    display: block;
     margin-bottom: 5px;
-    border: 20px solid #b91125;
+    border-top: 10px solid #b91125;
 }
 
 .gif-title {
@@ -27,12 +34,14 @@ p {
 }
 
 .photo {
-    width: 100px;
-    height: 100px;
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0 auto;
 }
 
 .content {
-    max-width: 500px;
+    max-width: 70%;
     margin: 20px auto;
 }
 
