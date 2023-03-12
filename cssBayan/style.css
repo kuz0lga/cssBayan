@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    display: block;
+    background-color: black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 0 5px;
+}
+
+.gif-item {
+    margin-bottom: 5px;
+    border: 20px solid #b91125;
+}
+
+.gif-title {
+    display: block;
+    cursor: pointer;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
